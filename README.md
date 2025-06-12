@@ -33,7 +33,7 @@ To address this issue, **🔄 Random UnderSampling** was applied, resulting in a
   - Compared models based on **Precision**, **Recall**, **F1 Score**, and **ROC AUC**
 
 - 🏆 **Final Model Selected**:  
-  - **XGBoost** was chosen for deployment due to its **superior performance** across all key metrics, especially ROC AUC (0.97+) and F1 Score (0.92+)
+  - **XGBoost** was chosen due to its **superior performance** across all key metrics, especially ROC AUC (0.97+) and F1 Score (0.92+)
 
 ## 🛠 Technologies Used
 
