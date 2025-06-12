@@ -9,6 +9,26 @@ This project aims to build a machine learning model that accurately detects frau
 - 🎯 Focused on achieving high **recall** (to catch more frauds) and high **precision** (to reduce false alarms).
 - 📉 Reducing financial losses and enhancing operational efficiency for banking systems.
 
+### 🔍 Evaluation Priorities in Fraud Detection
+
+#### 🎯 Primary Goal: **Minimize False Negatives (FN)**  
+**False Negative** = Fraudulent transaction predicted as not fraud.  
+❌ This is very dangerous, because real fraud slips through undetected.  
+✅ **High Recall** helps reduce FNs.  
+> 📌 **Why it's critical**: A missed fraud costs the bank/customer money.
+
+#### ⚖️ Secondary Goal: **Minimize False Positives (FP)**  
+**False Positive** = Genuine transaction predicted as fraud.  
+❗ This causes customer inconvenience (e.g., card gets blocked unnecessarily).  
+✅ **High Precision** helps reduce FPs.  
+> 📌 **Why it matters**: Too many false alarms hurt customer experience and trust.
+
+---
+
+### 🧠 Realistic Objective  
+✅ Prioritize **minimizing false negatives**  
+⚖️ While keeping **false positives within acceptable limits**
+
 ## ⚖️ Class Imbalance Handling  
 The dataset was highly imbalanced with **✅ 99.08% legitimate** and **❗0.16% fraudulent** transactions.  
 To address this issue, **🔄 Random UnderSampling** was applied, resulting in a ✔️ balanced dataset that enabled fair learning for all models.
